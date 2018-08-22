@@ -1,11 +1,13 @@
 body{
-  background-color: red;
+  background-color: #90AFC5;
 }
 
 h1{
 text-align: center;
+color: #763626;
 }
 
-p{
+.centered{
   text-align: center;
+  color: #2A3132;
 }
