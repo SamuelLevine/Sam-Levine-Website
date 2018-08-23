@@ -1,13 +1,59 @@
 body{
   background-color: #90AFC5;
-}
-
-h1{
-text-align: center;
-color: #763626;
+  font-size: 15px;
+  font-family: Arial;
+  padding:0;
+  margin:0;
 }
 
 .centered{
   text-align: center;
   color: #2A3132;
+}
+
+header{
+  background: #336B87;
+  padding-top: 30px;
+  min-height: 70px;
+  color: #763626;
+}
+
+header a{
+  color: #763626;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+header ul{
+  margin:0;
+  padding:0;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header h1{
+  float:left;
+  margin:0;
+  margin-left: 20px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+  margin-right:20px;
+}
+
+header .current a{
+  font-weight: bold;
+  color: #2A3132;
+}
+
+header a:hover{
+  font-size: 18px;
+  font-weight: bold;
 }
