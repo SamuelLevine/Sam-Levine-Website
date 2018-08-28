@@ -6,6 +6,12 @@ body{
   margin:0;
 }
 
+.centered{
+  margin-left: 25px;
+  margin-right: 50px;
+  color: #2A3132;
+}
+
 header{
   background: #336B87;
   padding-top: 30px;

@@ -11,6 +11,15 @@ body{
   color: #2A3132;
 }
 
+h2{
+  font-size: 30px;
+}
+
+p img{
+  width: 600px;
+  height: 500px;
+}
+
 header{
   background: #336B87;
   padding-top: 30px;
