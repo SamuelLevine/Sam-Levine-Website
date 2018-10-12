@@ -12,6 +12,10 @@ body{
   color: #2A3132;
 }
 
+.text{
+  font-size: 25px;
+}
+
 header{
   background: #336B87;
   padding-top: 30px;
@@ -57,4 +61,13 @@ header .current a{
 header a:hover{
   font-size: 18px;
   font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
 }
