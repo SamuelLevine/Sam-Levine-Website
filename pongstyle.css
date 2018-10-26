@@ -1,5 +1,5 @@
 body{
-  background-color: #90AFC5;
+  background-color: #062F4F;
   font-size: 15px;
   font-family: Arial;
   padding:0;
@@ -8,7 +8,7 @@ body{
 
 .centered{
   text-align: center;
-  color: #2A3132;
+  color: #E7DFDD;
 }
 
 h2{
@@ -16,14 +16,14 @@ h2{
 }
 
 header{
-  background: #336B87;
+  background: #000000;
   padding-top: 30px;
   min-height: 70px;
-  color: #763626;
+  color: #B82601;
 }
 
 header a{
-  color: #763626;
+  color: #B82601;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 17px;
@@ -54,7 +54,7 @@ header nav{
 
 header .current a{
   font-weight: bold;
-  color: #2A3132;
+  color: #062F4F;
 }
 
 header a:hover{
