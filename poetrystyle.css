@@ -19,6 +19,17 @@ body{
   color: #E7DFDD;
 }
 
+#poems{
+  margin-left: 50px;
+  font-size: 25px;
+  color: #E7DFDD;
+}
+
+#poemsH{
+  margin-left: 50px;
+  color: #E7DFDD;
+}
+
 .button {
   background-color: #062F4F;
     border: 2px solid #B82601;
