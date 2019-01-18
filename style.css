@@ -1,5 +1,5 @@
 body{
-  background-color: #062F4F;
+  background-color: #000000;
   font-size: 15px;
   font-family: Arial;
   padding:0;
@@ -8,7 +8,11 @@ body{
 
 .centered{
   text-align: center;
-  color: #E7DFDD;
+  color: #ffffff;
+}
+
+.name{
+  font-family: cursive;
 }
 
 #introP{
@@ -16,7 +20,19 @@ body{
   margin-right: 50px;
   font-size: 30px;
   text-align: center;
-  color: #E7DFDD;
+  color: #ffffff;
+}
+
+#toDo{
+  color: #ffffff;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+ul{
+  color: #ffffff;
+  margin-left: 50px;
+  font-size: 30px;
 }
 
 h2{
@@ -29,14 +45,14 @@ p img{
 }
 
 header{
-  background: #000000;
+  background: #ffffff;
   padding-top: 30px;
   min-height: 70px;
-  color: #B82601;
+  color: #000000;
 }
 
 header a{
-  color: #B82601;
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 17px;
