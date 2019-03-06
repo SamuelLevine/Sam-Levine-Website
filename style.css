@@ -1,5 +1,5 @@
 body{
-  background-color: #000000;
+  background-color: #ffffff;
   font-size: 15px;
   font-family: Arial;
   padding:0;
@@ -8,47 +8,20 @@ body{
 
 .centered{
   text-align: center;
-  color: #ffffff;
-}
-
-.name{
-  font-family: cursive;
-}
-
-#introP{
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 30px;
-  text-align: center;
-  color: #ffffff;
-}
-
-#toDo{
-  color: #ffffff;
-  margin-left: 50px;
-  font-size: 30px;
+  color: #000000;
 }
 
 ul{
   color: #ffffff;
-  margin-left: 50px;
   font-size: 30px;
-}
-
-h2{
-  font-size: 30px;
-}
-
-p img{
-  width: 600px;
-  height: 500px;
 }
 
 header{
   background: #ffffff;
-  padding-top: 30px;
+  padding-top: 300px;
   min-height: 70px;
   color: #000000;
+  text-align: center;
 }
 
 header a{
@@ -58,40 +31,23 @@ header a{
   font-size: 17px;
 }
 
-header ul{
-  margin:0;
-  padding:0;
-}
-
 header li{
-  float:left;
-  display:inline;
+  float:center;
   padding: 0 20px 0 20px;
 }
 
-header h1{
-  float:left;
-  margin:0;
-  margin-left: 20px;
-}
 
 header nav{
-  float:right;
+  float:center;
   margin-top:10px;
-  margin-right:20px;
+  font-size: 17px;
 }
 
 header .current a{
   font-weight: bold;
-  color: #062F4F;
 }
 
 header a:hover{
-  font-size: 18px;
   font-weight: bold;
-}
-
-.otherlink{
-  text-align: center;
-  font-size: 20px;
+  font-size: 17px;
 }
