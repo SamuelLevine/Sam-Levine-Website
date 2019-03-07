@@ -6,9 +6,28 @@ body{
   margin:0;
 }
 
+/* coding page */
 .centered{
   text-align: center;
   color: #000000;
+}
+.otherlink{
+  text-align: center;
+  font-size: 20px;
+}
+.row{
+  text-align: center;
+}
+.codecolumn{
+  padding: 5px;
+  display: inline-block;
+  text-align:center;
+}
+div .codecolumn img{
+  border: 3px solid #000000;
+}
+div .codecolumn h3{
+  font-family: times;
 }
 
 /* about page */
@@ -17,7 +36,7 @@ body{
   color: #000000;
   margin-left: 300px;
   margin-right: 300px;
-  font-family: times;
+  font-family: courier;
   line-height: 25px;
 }
 
@@ -27,12 +46,21 @@ body{
   font-size: 18px;
   color: #000000;
   text-transform: lowercase;
+  font-family: courier;
 }
 #poems2{
   margin-left: 550px;
   font-size: 18px;
   color: #000000;
   text-transform: lowercase;
+  font-family: times;
+}
+#poems3{
+  margin-left: 400px;
+  font-size: 18px;
+  color: #000000;
+  text-transform: lowercase;
+  font-family: monaco;
 }
 
 /* movies page */
@@ -56,6 +84,7 @@ body{
   text-align: left;
   color: Black;
   vertical-align: top;
+  font-family: courier;
 }
 .vidp2{
   width:25%;
@@ -66,6 +95,7 @@ body{
   text-align: right;
   color: Black;
   vertical-align: top;
+  font-family: courier;
 }
 
 /* header */
@@ -75,6 +105,7 @@ header{
   min-height: 70px;
   color: #000000;
   text-align: center;
+  font-family: times;
 }
 header a{
   color: #000000;
@@ -89,6 +120,7 @@ header ul{
 header li{
   display:inline;
   padding: 0 20px 0 20px;
+  font-family: times;
 }
 header nav{
   margin-top:10px;
@@ -100,10 +132,6 @@ header .current a{
 header a:hover{
   font-size: 17px;
   font-weight: bold;
-}
-.otherlink{
-  text-align: center;
-  font-size: 20px;
 }
 
 /* footer */

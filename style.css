@@ -6,11 +6,6 @@ body{
   margin:0;
 }
 
-.centered{
-  text-align: center;
-  color: #000000;
-}
-
 ul{
   color: #ffffff;
   font-size: 30px;
@@ -22,6 +17,7 @@ header{
   min-height: 70px;
   color: #000000;
   text-align: center;
+  font-family: times;
 }
 
 header a{
