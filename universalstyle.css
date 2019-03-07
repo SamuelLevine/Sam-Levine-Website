@@ -13,15 +13,23 @@ body{
 
 /* about page */
 .abouttext{
-  font-size: 25px;
+  font-size: 17px;
   color: #000000;
-  margin-left: 50px;
-  margin-right: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: times;
+  line-height: 25px;
 }
 
 /* poetry page*/
 #poems{
-  margin-left: 50px;
+  margin-left: 350px;
+  font-size: 18px;
+  color: #000000;
+  text-transform: lowercase;
+}
+#poems2{
+  margin-left: 550px;
   font-size: 18px;
   color: #000000;
   text-transform: lowercase;
@@ -106,4 +114,7 @@ header a:hover{
     width: 100%;
     color: black;
     text-align: center;
+}
+.footer img{
+  padding: 0 10px 0 10px;
 }
