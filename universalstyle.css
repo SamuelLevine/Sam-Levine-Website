@@ -40,7 +40,6 @@ div .codecolumn h3{
   line-height: 25px;
 }
 
-
 /* poetry page*/
 #poems{
   margin-left: 350px;
@@ -62,6 +61,13 @@ div .codecolumn h3{
   color: #000000;
   text-transform: lowercase;
   font-family: monaco;
+}
+#poems4{
+  margin-left: 750px;
+  font-size: 18px;
+  color: #000000;
+  text-transform: lowercase;
+  font-family: courier;
 }
 
 /* movies page */
@@ -99,6 +105,44 @@ div .codecolumn h3{
   font-family: courier;
 }
 
+/* music page */
+.soundcloud{
+  width: 40%;
+  padding: 0px;
+  margin: 0;
+  text-align: right;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+}
+.soundcloudText{
+  width: 40%;
+  display: inline-block;
+  padding-left: 30px;
+  line-height: 36px;
+  text-align: left;
+  vertical-align:top;
+  font-family: courier;
+
+
+
+}
+.musictext{
+  float: center;
+  margin:0px;
+  padding:0px;
+  text-align: center;
+}
+.caption{
+  display: block;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 170px;
+  width: 1100px;
+  font-family: courier;
+  font-style: italic;
+}
+
 /* header */
 header{
   background: #ffffff;
@@ -106,13 +150,13 @@ header{
   min-height: 70px;
   color: #000000;
   text-align: center;
-  font-family: times;
+  font-family: monaco;
 }
 header a{
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 13px;
 }
 header ul{
   margin:0;
@@ -120,19 +164,20 @@ header ul{
 }
 header li{
   display:inline;
-  padding: 0 20px 0 20px;
+  padding: 0 15px 0 15px;
   font-family: times;
 }
 header nav{
   margin-top:10px;
-  font-size: 17px;
 }
 header .current a{
   font-weight: bold;
 }
 header a:hover{
-  font-size: 17px;
   font-weight: bold;
+}
+header h1{
+  font-family: times;
 }
 
 /* footer */
