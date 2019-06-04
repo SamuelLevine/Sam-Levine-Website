@@ -39,6 +39,28 @@ div .codecolumn h3{
   font-family: courier;
   line-height: 25px;
 }
+.aboutoutro{
+  font-size: 17px;
+  color: #000000;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: courier;
+  line-height: 25px;
+  text-align: right;
+}
+
+/* art page */
+.artp{
+  width:25%;
+  display: inline-block;
+  padding:20px;
+  box-sizing: border-box;
+  line-height: 23px;
+  text-align: left;
+  color: Black;
+  vertical-align:bottom;
+  font-size: 17px;
+}
 
 /* poetry page*/
 #poems{
