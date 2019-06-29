@@ -140,7 +140,7 @@ div .codecolumn h3{
   width:25%;
 }
 .vidp{
-  width:25%;
+  width:17%;
   display: inline-block;
   padding:5px;
   box-sizing: border-box;
@@ -151,7 +151,7 @@ div .codecolumn h3{
   font-family: helvetica;
 }
 .vidp2{
-  width:25%;
+  width:17%;
   display: inline-block;
   padding:5px;
   box-sizing: border-box;
@@ -161,6 +161,15 @@ div .codecolumn h3{
   vertical-align: top;
   font-family: helvetica;
 }
+@media screen and (max-width: 1080px){
+#contain{
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}}
 
 /* music page */
 .soundcloud{

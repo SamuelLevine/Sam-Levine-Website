@@ -27,11 +27,17 @@ header{
   background: #ffffff;
   background-image: url(newback.jpg);
   background-size: 52%;
-  min-height: 70px;
+  min-height: 0px;
   font-family: Arial;
-  text-align: center;
+  text-align: right;
   font-weight: bold;
   line-height: 20px;
+  }
+}
+@media screen and (max-width: 1080px){
+ul{
+  font-size: 30px;
+  transform: rotate(0deg);
 }
 }
 
@@ -51,7 +57,7 @@ header nav{
 }
 @media screen and (max-width: 1080px){
 header nav{
-  margin: auto;
+  margin: 7%;
 }
 }
 header .current a{
