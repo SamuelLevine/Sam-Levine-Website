@@ -2,47 +2,48 @@ body{
   background-color: #000000;
   font-size: 15px;
   font-family: Arial;
-  padding:0;
-  margin:0;
-}
-
-ul{
   color: #ffffff;
-  font-size: 30px;
 }
-
+ul{
+  font-size: 30px;
+  transform: rotate(82deg);
+}
 header{
   background: #ffffff;
-  background-image: url(IMG_3129.jpg);
-  background-size: 50%;
-  padding-top: 200px;
+  background-image: url(newback.jpg);
+  background-size: 52%;
+  padding-top: 150px;
   min-height: 70px;
-  text-align: center;
-  font-family: courier;
-  padding-bottom: 200px;
+  font-family: Arial;
+  padding-bottom: 380px;
+  text-align: right;
+  padding-right: 470px;
+  font-weight: bold;
+  line-height: 20px;
 }
-
 header a{
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 18px;
-}
+  font-size: 14px;
 
+}
 header li{
   padding: 0 20px 0 20px;
   list-style: none;
 }
-
-
 header nav{
-  margin-top:10px;
+  margin-top:-593px;
 }
-
 header .current a{
   font-weight: bold;
 }
-
 header a:hover{
   font-weight: bold;
+  color: #000000;
+}
+
+.welcometext{
+  font-family: sans-serif;
+  text-align: center;
 }

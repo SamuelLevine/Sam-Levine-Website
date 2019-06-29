@@ -5,6 +5,17 @@ body{
   padding:0;
   margin:0;
 }
+.splitback{
+  background: linear-gradient(to left, white 50%, #FF69B4 50%);
+}
+.reversesplitback{
+  background: linear-gradient(to left, #FF69B4 50%, white 50%);
+}
+
+/* contact page */
+.contactimg{
+  background-image: url(amster.jpg);
+}
 
 /* coding page */
 .centered{
@@ -31,36 +42,57 @@ div .codecolumn h3{
 }
 
 /* about page */
-.abouttext{
-  font-size: 17px;
+#abouttext{
+  font-size: 15px;
   color: #000000;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 50px;
+  line-height: 20px;
   font-family: times;
-  line-height: 25px;
+  margin-right: 550px;
 }
-
-.aboutoutro{
-  font-size: 17px;
-  color: #000000;
-  margin-left: 300px;
-  margin-right: 300px;
-  font-family: courier;
-  line-height: 25px;
-  text-align: right;
+.abouttext img{
+  float:right;
+  padding-right: 130px;
 }
 
 /* art page */
-.artp{
-  width:25%;
-  display: inline-block;
-  padding:20px;
-  box-sizing: border-box;
-  line-height: 23px;
-  text-align: left;
-  color: Black;
-  vertical-align:bottom;
-  font-size: 17px;
+.artgrid{
+  display: grid;
+  grid-gap: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.artgriditem{
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+.item1{
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+.item2 {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 2;
+}
+.item3 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+.item4 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.item5 {
+  grid-column: 2 / span 2;
+  grid-row: 3;
+}
+.item6 {
+  grid-column: 4;
+  grid-row: 3;
+}
+#num6{
+  float:right;
 }
 
 /* poetry page*/
@@ -99,6 +131,8 @@ div .codecolumn h3{
   margin: 0;
   padding: 0;
   text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 #vid{
   padding:0;
@@ -108,24 +142,24 @@ div .codecolumn h3{
 .vidp{
   width:25%;
   display: inline-block;
-  padding:20px;
+  padding:5px;
   box-sizing: border-box;
   line-height: 25px;
   text-align: left;
   color: Black;
   vertical-align: top;
-  font-family: courier;
+  font-family: helvetica;
 }
 .vidp2{
   width:25%;
   display: inline-block;
-  padding:20px;
+  padding:5px;
   box-sizing: border-box;
   line-height: 25px;
   text-align: right;
   color: Black;
   vertical-align: top;
-  font-family: courier;
+  font-family: helvetica;
 }
 
 /* music page */
@@ -168,39 +202,45 @@ div .codecolumn h3{
 
 /* header */
 header{
-  background: #ffffff;
-  padding-top: 30px;
+  background: #AC7A56;
+  padding-top: 0px;
   min-height: 70px;
   color: #000000;
   text-align: center;
-  font-family: monaco;
+  font-family: helvetica;
+  font-variant: small-caps;
+  margin-top: 0px;
 }
 header a{
   color: #000000;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 13px;
+  font-size: 17px;
 }
 header ul{
   margin:0;
   padding:0;
+  padding-right: -39px;
 }
 header li{
   display:inline;
   padding: 0 15px 0 15px;
-  font-family: times;
 }
 header nav{
-  margin-top:10px;
+  margin-top: 0px;
 }
 header .current a{
   font-weight: bold;
 }
 header a:hover{
-  font-weight: bold;
+  color: #7256ac;
 }
 header h1{
-  font-family: times;
+  font-family: arial;
+  text-transform: uppercase;
+  background-color: #56ac8f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
 }
 
 /* footer */
