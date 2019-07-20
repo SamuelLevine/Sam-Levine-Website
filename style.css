@@ -6,7 +6,6 @@ body{
 }
 ul{
   font-size: 30px;
-  transform: rotate(82deg);
 }
 header{
   background: #ffffff;
@@ -17,30 +16,11 @@ header{
   font-family: Arial;
   padding-bottom: 380px;
   text-align: right;
-  padding-right: 470px;
+  padding-right: 0px;
   font-weight: bold;
   line-height: 20px;
+  text-align: center;
 }
-
-@media screen and (max-width: 1080px){
-header{
-  background: #ffffff;
-  background-image: url(newback.jpg);
-  background-size: 52%;
-  min-height: 0px;
-  font-family: Arial;
-  text-align: right;
-  font-weight: bold;
-  line-height: 20px;
-  }
-}
-@media screen and (max-width: 1080px){
-ul{
-  font-size: 30px;
-  transform: rotate(0deg);
-}
-}
-
 header a{
   color: #ffffff;
   text-decoration: none;
@@ -53,12 +33,6 @@ header li{
   list-style: none;
 }
 header nav{
-  margin-top:-593px;
-}
-@media screen and (max-width: 1080px){
-header nav{
-  margin: 7%;
-}
 }
 header .current a{
   font-weight: bold;
