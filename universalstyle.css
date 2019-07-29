@@ -131,8 +131,8 @@ div .codecolumn h3{
   margin: 0;
   padding: 0;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 4em;
+  margin-right: 4em;
 }
 #vid{
   padding:0;
@@ -142,7 +142,7 @@ div .codecolumn h3{
 .vidp{
   width:25%;
   display: inline-block;
-  padding:5px;
+  padding:.5em;
   box-sizing: border-box;
   line-height: 25px;
   text-align: left;
@@ -173,8 +173,8 @@ div .codecolumn h3{
   display: block;
   font-size: 13px;
   text-align: left;
-  margin-left: 170px;
-  width: 1100px;
+  margin-left: 13em;
+  width: 85em;
   font-family: courier;
   font-style: italic;
 }
