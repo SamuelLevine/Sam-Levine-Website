@@ -1,7 +1,7 @@
 body{
   background-color: yellow;
 }
-@media(max-width: 768px){
+@media only screen (max-width: 768px){
   body{
     background-color: blue;
   }
