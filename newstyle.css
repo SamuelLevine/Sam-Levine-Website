@@ -1,9 +1,22 @@
 img{
   width: 100%;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
+#wrapper{
+  width:100%;
+}
+#intro h1{
+  padding: 15px 25px 15px;
+}
+#intro p{
+  padding: 0px 25px 10px;
+}
 @media only screen and (max-width: 768px){
   body{
-    background-color: black;
+    background-color: purple;
   }
 }
 @media only screen and (min-width: 768px){
