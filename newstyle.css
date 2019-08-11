@@ -7,6 +7,7 @@ body{
 }
 #wrapper{
   width:100%;
+  text-align: center;
 }
 #intro h1{
   padding: 15px 25px 15px;
@@ -14,11 +15,8 @@ body{
 #intro p{
   padding: 0px 25px 10px;
 }
-@media only screen and (max-width: 768px){
-  body{
-    background-color: purple;
-  }
-}
 @media only screen and (min-width: 768px){
-
+  body{
+    background-color: red;
+  }
 }
