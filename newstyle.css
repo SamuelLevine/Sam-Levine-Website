@@ -1,10 +1,12 @@
 img{
   width: 100%;
 }
-.container{
+.my-container{
   padding: 0px 20px 0px;
   text-align: center;
-  margin: 0 auto;
+}
+.row{
+  text-align: center;
 }
 
 @media (min-width: 768px){
