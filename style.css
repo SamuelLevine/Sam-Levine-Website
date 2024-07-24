@@ -8,8 +8,7 @@ ul{
   font-size: 30px;
 }
 header{
-  background: #ffffff;
-  background-image: url(newback.jpg);
+  background: grey;
   background-size: 52%;
   padding-top: 150px;
   min-height: 70px;
@@ -42,7 +41,20 @@ header a:hover{
   color: #000000;
 }
 
+div .welcomephoto{
+  width: 50%;
+}
+
+.welcomephoto img{
+  margin-left: 25%;
+  max-width: 50%;
+  max-height: 150px;
+}
+
 .welcometext{
+  margin-right: 25%;
+  width: 50%;
+  float: right;
   font-family: sans-serif;
   text-align: center;
 }
